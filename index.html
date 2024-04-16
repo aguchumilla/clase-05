@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- vinculación al css externo -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Horóscopo sentí tu suerte, vivir en positivo</title>
+
+    <!-- Enlace a Font Awesome -->
+    <script src="https://kit.fontawesome.com/fa04600604.js" crossorigin="anonymous"></script>
+    
+    <!--     <style> h1{
+        color:green;
+        background-color: grey;
+    }
+    </style>  
+    cambia el estilo de todos los h1 
+    
+    esto se puede hacer pero es mala practica, mejor hacerlo en el archivo css-->
+</head>
+
+<body>
+    <header>
+        <div class="header_logo logo-color">
+            <a href="#">
+                <i class="fa-solid fa-moon "></i> <!-- icono de fontawesome -->
+            </a>
+        </div>
+        
+    </header>
+    <!-- convencion de nombres bem (bloque_elemento-modificador) -->
+    <main>
+        <section class="banner">
+            <div class="banner_content">
+                <h1>Tu horóscopo hoy</h1>
+                <h2>Sentí tu suerte, viví en positivo</h2>
+                <br>
+                <br>
+                <!-- Botón de llamado a la acción -->
+                <a href="#" class="banner_button">Suscribirme</a>
+            </div>
+            <!-- video de fondo si le agrego la propuiedad controls se puede usar el video-->
+            <video src="./video/space_mid.mp4" autoplay loop muted class="video_background">
+                <!-- esta etiqueta sin cierre source es para videos de otro formato,
+                es conveniente poner varios tipos de videos, con extensiones distintas -->
+                <source src="./video/space_mid.vmw">
+                Tu navegador no soporta este formato de video.
+            </video>
+        </section>
+    </main>
+
+    <footer></footer>
+</body>
+
+</html>
